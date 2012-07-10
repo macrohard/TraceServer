@@ -479,7 +479,7 @@ public class TraceServer {
 				if (itemTrace.getSelection())
 					outFilter |= 1;
 				else
-					outFilter &= 63;
+					outFilter &= 62;
 			}
 		});
 		itemDebug = new Button(group2, SWT.CHECK);
