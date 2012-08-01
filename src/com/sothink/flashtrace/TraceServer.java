@@ -63,7 +63,7 @@ public class TraceServer {
 	public boolean outTimeStamp = true;
 	public boolean wordwrap = false;
 	public boolean writeLog = true;
-	public boolean useRegex = false;
+	public boolean useRegex = true;
 
 	public String excludeRules = "";
 	public String includeRules = "";
